@@ -1,32 +1,38 @@
+macro_ctrl_z: macro_ctrl_z{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_z";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp Z>;
+};
 macro_ctrl_a: macro_ctrl_a{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_a";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp A>;
+bindings = <&sk LCTRL>, <&kp A>;
 };
 macro_ctrl_s: macro_ctrl_s{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_s";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp S>;
+bindings = <&sk LCTRL>, <&kp S>;
 };
 macro_ctrl_x: macro_ctrl_x{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_x";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp X>;
+bindings = <&sk LCTRL>, <&kp X>;
 };
 macro_ctrl_c: macro_ctrl_c{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_c";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp C>;
+bindings = <&sk LCTRL>, <&kp C>;
 };
 macro_ctrl_v: macro_ctrl_v{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_v";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp V>;
+bindings = <&sk LCTRL>, <&kp V>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
